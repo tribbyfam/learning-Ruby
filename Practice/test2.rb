@@ -17,13 +17,6 @@ end
 
 print "Enter value:"
 
-first_number = gets.to_i
-
-print "enter another value:"
-
-second_number = gets.to_i
-
-puts first_number.to_s + "+" + second_number.to_s + "=" (first_number + second_number).to_s
 
 class Animal
   def initialize

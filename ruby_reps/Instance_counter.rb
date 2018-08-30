@@ -10,7 +10,7 @@ string = 'Bob is very nice gardener'
 
 count = Hash.new 0
 new_str = string.delete(" ")
-# new_arr = new_str.split.map(&:chars)
+new_arr = new_str.split.map(&:chars)
 new_str.each do |letter|
   count[letter] += 1
 end
