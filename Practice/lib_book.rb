@@ -54,19 +54,76 @@
 #   puts "number is odd"
 # end
 
-text = "Super Mario is definitely not human"
-
-text = text.downcase.delete(" ").split(" ")
-puts text
-#   Hash = text.each do |key, value|
-#  puts "#{key}: #{value}"
-# end
-
-
 # person = {name: 'bob', height: '6 ft', weight: '160 lbs', hair: 'brown'}
 
 # person.each do |key, value|
 #   puts "#{key}: #{value}"
 # end
 
+# puts "give me a number from 0 to 10"
+# n = gets.to_i
+# x = 1
+# until (x == 5)
+#   x = x +1
+# end
 
+
+# arr = [23, 53, 43, 9,64]
+# index = 0
+# max = 0
+
+# while (index < arr[i])
+#   if (arr[i] > max)
+#     max = arr[i]
+#   end
+#   index = index + 1
+# end
+
+# puts "Max ==>" + max.to_s
+
+# Multidimentional arrays
+arr =[[23, 45, 64, 99,43],
+    [55,14 ,66, 123, 74],
+    [4, 53, 64, 24, 77]]
+
+# puts "Britnaney's third exam: " + arr[1][2].to_s
+
+
+# row = 0
+# column = 0
+# while (row < arr.size)
+#   puts "row: " + row.to_s
+#   while (column < arr[row].size)
+#     puts arr[row][column]
+#     column += 1
+#   end
+#   column = 0
+#   row += 1
+# end
+
+row = 0
+column = 0
+while (row < arr.size)
+  puts "row: " + row.to_s
+  while (column < arr[row].size)
+    i = 0
+    while (i < column.size)
+      prime_flag = true
+      j = 2
+      while (j <= i/2)
+        if (i % j ==0)
+          prime_flag = false
+        end
+        j += 1
+      end
+      if prime_flag
+        puts "Prime ==> " + i.to_s
+      end
+      i += 1
+    end
+    puts arr[row][column]
+    column += 1
+  end
+  column = 0
+  row += 1
+end

@@ -6,7 +6,7 @@ data = HTTParty.get('https://api.icndb.com/jokes/random/?firstName=Orlando&lastN
 color_splash = data["value"]["joke"]
 
 
-variety = gen_random(String.colors.to_s)
-# puts color_splash.colorize(:light_blue)
+# variety = gen_random(String.colors)
+puts color_splash.colorize(:light_blue)
 
 

@@ -13,3 +13,5 @@ end
 
 puts letter_counter("Super Mario is definitely not human")
 
+
+
