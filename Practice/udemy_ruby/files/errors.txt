@@ -1,0 +1,7 @@
+Error at: undefined local variable or method `nill' for main:Object
+Did you mean?  nil
+               nil?
+Error undefined method `+' for nil:NilClass at 2018-09-08 14:41:03 -0500
+Error undefined method `+' for nil:NilClass at 2018-09-08 14:42:33 -0500
+Error undefined method `*' for nil:NilClass at 2018-09-08 14:42:33 -0500
+Error divided by 0 at 2018-09-08 14:42:33 -0500
