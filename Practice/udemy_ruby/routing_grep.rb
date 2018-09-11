@@ -14,5 +14,5 @@ arr.select{ |x| x =~ /\.rb/}.map{ |x| x[0..-4] }
 # grep does the same only shorter code
 arr.grep(/(.*)\.rb/){$1}
 arr2 = ["heyhon.rb", "hello.rb", "index.html", "home.rb"]
-arr.grep(/(.*)\.rb/){$1}
+arr2.grep(/(.*)\.rb/){$1}
 

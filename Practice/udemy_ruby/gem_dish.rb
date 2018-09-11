@@ -18,4 +18,3 @@ p media.actors.length
 p media.actors[1].name
 p media.actors[0].age
 p media.favorite?
-p media.actors[].name
